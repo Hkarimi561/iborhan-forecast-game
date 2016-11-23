@@ -1,0 +1,123 @@
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus{
+    background-color: #005F5F;
+    border-color: #005F5F;
+}
+.navbar-inverse{
+    background-color: #004949;
+    border-color: #004949;
+    opacity: 0.9;
+
+}
+
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+    color: #fff;
+    background-color: #005F5F;
+}
+.container .jumbotron, .container-fluid .jumbotron{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.jumbotron{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#center_write{text-align: center}
+.inputForm{
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    color: black;
+    font-size: xx-large;
+}
+.navbar-inverse .navbar-brand{
+    color: #ffffff;
+}
+.navbar-inverse .navbar-nav > li > a{
+    color: #ffffff;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    background: #338686;
+}
+.back-to-top {
+    background-color:#004949;
+    border-color: #004949;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+    opacity: 0.8;
+}
+.back-to-top:hover {
+    background-color:#1F7474;
+    border-color: #1F7474;
+
+}
+.back-to-top:focus {
+    background-color:#004949;
+    border-color: #004949;
+    opacity: 0.6;
+}
+.chalkboard{
+    color: white;
+}
+@font-face{
+    font-family: farsiFont;
+    src: url('font/BYekan.woff');
+    font-weight: bold;
+}
+/*.rtl{*/
+    /*text-align: right;*/
+/*}*/
+.img-small{
+    width: 50px;
+    height: 50px;
+
+}
+.img-xsmall{
+    width: 25px;
+    height: 25px;
+
+}
+.img-medium{
+    width: 100px;
+    height: 100px;
+
+
+}
+.img-big{
+    width: 200px;
+    height: 200px;
+
+
+}
+.team-gradient{
+    background: #0099F7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #05590B , #F11712); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #05590B , #F11712); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.board-gradient{
+    background: #0099F7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #05590B , #33502a); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #05590B , #33502a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.horizontal-b-line{
+    border-bottom: 1px solid #6b6f72;
+}
+.horizontal-t-line{
+    border-top: 1px solid #6b6f72;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+.upDown {
+    color: white;
+}
