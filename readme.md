@@ -25,4 +25,4 @@ This is a forecast football game
     
 ### License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+The iBorhan Forecast Game software licensed under the [MIT license](http://opensource.org/licenses/MIT)
