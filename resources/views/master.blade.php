@@ -92,7 +92,7 @@
     </div><!--/.container-->
     <hr>
     <footer dir="ltr">
-        <p>Hamidreza Karimi</p>
+        <p>Copyright(c) 2016 Parax team</p>
 
     </footer>
 
