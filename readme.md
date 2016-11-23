@@ -18,6 +18,8 @@ This is a forecast football game
     php artisan key:generate   
 ##### migrate and add table to database and seed them
     php artisan migrate --seed
+##### add team to the team table
+    php artisan make:team
 ##### view the app on localhost:8000
     php artisan serve
     
