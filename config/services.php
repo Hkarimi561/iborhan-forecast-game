@@ -39,12 +39,12 @@ return [
     'google' => [
 	    'client_id' => '322438265726-uc9l5sp89303d281rkgoh25a0b19pnup.apps.googleusercontent.com',
 	    'client_secret' => 'bfSO41vb0_ZMLr_z8UfR0BtI',
-	    'redirect' => 'http://forecast.dev/social/login/google',
+	    'redirect' => '/social/login/google',
     ],
     'github' => [
 	    'client_id' => '4eff30cb91dfa5b6e21f',
 	    'client_secret' => 'c5825bfe563c1bfe106ff20102d3d321735099cb',
-	    'redirect' => 'http://forecast.dev/social/login/github',
+	    'redirect' => '/social/login/github',
     ],
 
 ];

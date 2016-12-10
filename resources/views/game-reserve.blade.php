@@ -34,7 +34,7 @@
         });
         $.ajax({
             type: "get",
-            url: "http://forecast.dev/api/user/reserve/matches",
+            url: "/api/user/reserve/matches",
             success: function (data) {
                 jQuery.each(data, function (key, value) {
                     $("#table").append(

@@ -28,7 +28,7 @@
             serverSide: true,
 
 
-            ajax: 'http://forecast.dev/api/player',
+            ajax: '/api/player',
             "language": {
                 "sProcessing": "درحال پردازش...",
                 "sLengthMenu": "نمایش محتویات _MENU_",

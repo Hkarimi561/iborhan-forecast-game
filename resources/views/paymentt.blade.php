@@ -25,7 +25,7 @@
             crossDomain: true,
             dataType: "xml",
             cache: false,
-            Origin: "http://forecast.dev",
+            Origin: "",
             data: soapMessage,
             processData: false,
             contentType: "text/xml; charset=\"utf-8\"",

@@ -31,7 +31,7 @@
             serverSide: true,
 
 
-            ajax: 'http://forecast.dev/api/user/myForecast?user_id=' + '{{$needed}}',
+            ajax: '/api/user/myForecast?user_id=' + '{{$needed}}',
             "language": {
                 "sProcessing": "درحال پردازش...",
                 "sLengthMenu": "نمایش محتویات _MENU_",

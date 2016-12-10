@@ -34,7 +34,7 @@
             serverSide: true,
 
 
-            ajax: 'http://forecast.dev/api/game/week?start_date=' + first + '&end_date=' + end,
+            ajax: '/api/game/week?start_date=' + first + '&end_date=' + end,
             "language": {
                 "sProcessing": "درحال پردازش...",
                 "sLengthMenu": "نمایش محتویات _MENU_",

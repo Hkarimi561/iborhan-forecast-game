@@ -23,7 +23,7 @@
             serverSide: true,
 
 
-            ajax: 'http://forecast.dev/api/question',
+            ajax: '/api/question',
             "language": {
                 "sProcessing": "درحال پردازش...",
                 "sLengthMenu": "نمایش محتویات _MENU_",

@@ -48,7 +48,7 @@
 
 //           var matchId;
 
-            ajax: "http://forecast.dev/api/user/reserve/seat?matchId="+{{$needed['matchId']}}+
+            ajax: "/api/user/reserve/seat?matchId="+{{$needed['matchId']}}+
             "&sectionId="+{{$needed['sectionId']}}+"&positionId="+{{$needed['positionId']}},
             "language": {
                 "sProcessing": "درحال پردازش...",

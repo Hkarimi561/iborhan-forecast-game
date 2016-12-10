@@ -43,7 +43,7 @@
             serverSide: true,
 
 
-            ajax: "http://forecast.dev/api/user/reserve/position?matchId=" +{{$needed['matchId']}}+"&teamId="+{{$needed['teamId']}},
+            ajax: "/api/user/reserve/position?matchId=" +{{$needed['matchId']}}+"&teamId="+{{$needed['teamId']}},
             "language": {
                 "sProcessing": "درحال پردازش...",
                 "sLengthMenu": "نمایش محتویات _MENU_",

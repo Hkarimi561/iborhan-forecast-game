@@ -37,7 +37,7 @@
             serverSide: true,
 
 
-            ajax: 'http://forecast.dev/api/game/event?game_id=' +{{$game['game_id']}},
+            ajax: '/api/game/event?game_id=' +{{$game['game_id']}},
             "language": {
                 "sProcessing": "درحال پردازش...",
                 "sLengthMenu": "نمایش محتویات _MENU_",

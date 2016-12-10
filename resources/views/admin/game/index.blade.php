@@ -27,7 +27,7 @@
             serverSide: true,
 
 
-            ajax: 'http://forecast.dev/api/game/data',
+            ajax: '/api/game/data',
             "language": {
                 "sProcessing": "درحال پردازش...",
                 "sLengthMenu": "نمایش محتویات _MENU_",

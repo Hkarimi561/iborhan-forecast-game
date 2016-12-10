@@ -69,7 +69,7 @@
 //            $("#player").prop("disabled", false);
             $("#player").prop("disabled", false).select2({
                 ajax: {
-                    url: "http://forecast.dev/api/team/player?id=" + parseInt($(".team_id:checked").val()),
+                    url: "/api/team/player?id=" + parseInt($(".team_id:checked").val()),
                     data: function (params) {
                         return {
                             q: params.term // search term

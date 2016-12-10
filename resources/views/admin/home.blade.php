@@ -43,7 +43,7 @@
         $('#game-table').DataTable({
             processing: true,
             serverSide: true,
-            ajax: 'http://forecast.dev/api/game/start/data',
+            ajax: '/api/game/start/data',
             "language": {
                 "sProcessing": "درحال پردازش...",
                 "sLengthMenu": "نمایش محتویات _MENU_",

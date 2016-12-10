@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <base href="http://forecast.dev">
+    <base href="">
     <meta charset="UTF-8">
     <meta name="_token" content="{{ csrf_token() }}"/>
     <title>iBorhan Forecast</title>

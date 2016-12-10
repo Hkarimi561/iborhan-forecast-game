@@ -45,7 +45,7 @@
 
 //           var matchId;
 
-            ajax: "http://forecast.dev/api/user/reserve/section?matchId=" +{{$needed['matchId']}}+"&positionId="+{{$needed['positionId']}}+"&teamId="+{{$needed['teamId']}},
+            ajax: "/api/user/reserve/section?matchId=" +{{$needed['matchId']}}+"&positionId="+{{$needed['positionId']}}+"&teamId="+{{$needed['teamId']}},
 {{--            {{route('section_selector'),['matchId'=>$needed['matchId'],'positionId'=>$needed['positionId'],'teamId'=>$needed['teamId']]}}",--}}
             "language": {
                 "sProcessing": "درحال پردازش...",

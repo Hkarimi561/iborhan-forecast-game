@@ -150,7 +150,7 @@
         <script>
             $.ajax({
                 type: "get",
-                url: "http://forecast.dev/api/user/myForecastInfo?user_id={{$needed['user_id']}}",
+                url: "/api/user/myForecastInfo?user_id={{$needed['user_id']}}",
                 success: function (data) {
                     var true_data = data.true_forecast;
                     var forecast_data = data.forecast_count;

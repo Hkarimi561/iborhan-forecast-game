@@ -22,7 +22,7 @@
             serverSide: true,
 
 
-            ajax: 'http://forecast.dev/api/stadium',
+            ajax: '/api/stadium',
             "language": {
                 "sProcessing": "درحال پردازش...",
                 "sLengthMenu": "نمایش محتویات _MENU_",
