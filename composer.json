@@ -16,7 +16,8 @@
     "yajra/laravel-datatables-oracle": "^6.18",
     "kriswallsmith/buzz": "dev-master",
     "artisaninweb/laravel-soap": "0.2.*",
-    "orchestra/parser": "~3.0"
+    "orchestra/parser": "~3.0",
+    "irazasyed/telegram-bot-sdk": "^2.1"
 
   },
   "require-dev": {

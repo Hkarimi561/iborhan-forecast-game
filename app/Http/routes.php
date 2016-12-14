@@ -13,6 +13,7 @@
 
 Route::get('social/login/redirect/{provider}', ['uses' => 'Auth\AuthController@redirectToProvider', 'as' => 'social.login']);
 Route::get('social/login/{provider}', ['uses' => 'Auth\AuthController@handleProviderCallback', 'as' => 'social.callback']);
+Route::resource('telegram','TelegramController');
 Route::group(['middleware' => 'guest'], function () {
 
     Route::get('/user/login', ['as' => 'user-get-login', 'uses' => 'Auth\AuthController@get_login']);
