@@ -19,6 +19,7 @@ class TelegramController extends Controller
     {
         $command = new HelpCommand();
         $update=Telegram::addCommand($command);
+        $update = Telegram::commandsHandler(true);
     }
 
     /**
