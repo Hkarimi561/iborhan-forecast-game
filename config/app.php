@@ -149,7 +149,7 @@ return [
         Artisaninweb\SoapWrapper\ServiceProvider::class,
         Orchestra\Parser\XmlServiceProvider::class,
         BlackRiver\TelegramBot\ServiceProvider::class,
-//        Telegram\Bot\Laravel\TelegramServiceProvider::class,
+        Telegram\Bot\Laravel\TelegramServiceProvider::class,
 
 
     ],
@@ -204,7 +204,7 @@ return [
         'Datatables' => Yajra\Datatables\Facades\Datatables::class,
         'SoapWrapper' => Artisaninweb\SoapWrapper\Facades\SoapWrapper::class,
         'XmlParser' => Orchestra\Parser\Xml\Facade::class,
-//        'Telegram'  => Telegram\Bot\Laravel\Facades\Telegram::class,
+        'Telegram'  => Telegram\Bot\Laravel\Facades\Telegram::class,
 
     ],
 
