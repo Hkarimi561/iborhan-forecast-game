@@ -2,7 +2,7 @@
 
 namespace App\Console\Commands;
 
-use App\Models\Games;
+use App\Models\Game;
 use Telegram\Bot\Actions;
 use Telegram\Bot\Commands\Command;
 class GetGamesCommand extends Command

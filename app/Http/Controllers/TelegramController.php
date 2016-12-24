@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Console\Commands\GetGamesCommand;
+use Illuminate\Console\Command;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -16,8 +18,8 @@ class TelegramController extends Controller
      */
     public function index()
     {
-        $update=Telegram::commandsHandler(true);
-        return $update;
+        $command = new Command(GetGamesCommand::class);
+        $telegram->addCommand($command);
     }
 
     /**
