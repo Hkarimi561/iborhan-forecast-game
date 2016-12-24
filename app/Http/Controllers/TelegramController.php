@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\BotCommands\GetGamesCommand;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -17,9 +18,13 @@ class TelegramController extends Controller
      */
     public function index()
     {
-        $command = new HelpCommand();
-        $update=Telegram::addCommand($command);
-        $update = Telegram::commandsHandler(true);
+//        $command = new HelpCommand();
+        Telegram::addCommands([
+            HelpCommand::class,
+            GetGamesCommand::class,
+
+        ]);
+        return "ok";
     }
 
     /**

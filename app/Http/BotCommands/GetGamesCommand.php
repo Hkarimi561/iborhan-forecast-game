@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace App\Http\BotCommands;
 
 use App\Models\Game;
 use Telegram\Bot\Actions;

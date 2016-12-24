@@ -57,7 +57,9 @@ return [
     */
     'commands' => [
         Telegram\Bot\Commands\HelpCommand::class,
-        App\Console\Commands\GetGamesCommand::class,
-        App\Console\Commands\StartCommand::class,
+        Vendor\Project\Commands\StartCommand::class,
+        Vendor\Project\Commands\SettingsCommand::class,
+        App\Http\BotCommands\GetGamesCommand::class,
+//        App\Console\Commands\StartCommand::class,
     ],
 ];
