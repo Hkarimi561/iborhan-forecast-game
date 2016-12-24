@@ -17,7 +17,8 @@
     "kriswallsmith/buzz": "dev-master",
     "artisaninweb/laravel-soap": "0.2.*",
     "orchestra/parser": "~3.0",
-    "irazasyed/telegram-bot-sdk": "^2.1"
+    "irazasyed/telegram-bot-sdk": "^2.1",
+    "black-river/telegram-bot": "^0.7.0"
 
   },
   "require-dev": {
