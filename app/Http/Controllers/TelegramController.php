@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
+use Telegram\Bot\Commands\HelpCommand;
 use Telegram\Bot\Laravel\Facades\Telegram;
 
 class TelegramController extends Controller
@@ -16,7 +17,7 @@ class TelegramController extends Controller
      */
     public function index()
     {
-        $command = new Telegram\Bot\Commands\HelpCommand();
+        $command = new HelpCommand();
         $update=Telegram::addCommand($command);
         return $update;
     }
