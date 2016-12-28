@@ -18,6 +18,8 @@ Route::group(['middleware' => 'guest'], function () {
 
     Route::get('/user/login', ['as' => 'user-get-login', 'uses' => 'Auth\AuthController@get_login']);
     Route::post('/user/login', ['before' => 'csrf', 'as' => 'user-login', 'uses' => 'Auth\AuthController@login']);
+    Route::get('/user/register', ['as' => 'user-register', 'uses' => 'Auth\AuthController@get_register']);
+    Route::post('user/register',['before' => 'csrf', 'as' => 'register', 'uses' => 'Auth\AuthController@create']);
 /*
     Route::get('/user/login', ['as' => 'admin-get-login', 'uses' => 'Auth\AuthController@get_login']);
     Route::post('/user/login', ['before' => 'csrf', 'as' => 'user-login', 'uses' => 'Auth\AuthController@post_login']);*/

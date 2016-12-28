@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Signin Template for Bootstrap</title>
+    <title>Forecast Login</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{asset('assets/bower_components/font-awesome/css/font-awesome.css')}}" rel="stylesheet">
@@ -43,7 +43,7 @@
             </div>
         @endif
         <button name="confirm" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-        <a href="{{ route('social.login', ['google']) }}" class="btn btn-lg btn-danger btn-block"><i class="fa fa-google-plus"></i></a>
+{{--        <a href="{{ route('social.login', ['google']) }}" class="btn btn-lg btn-danger btn-block"><i class="fa fa-google-plus"></i></a>--}}
         {{--<a href="{{ route('social.login', ['google']) }}">G+ Login</a><br>--}}
     </form>
 
